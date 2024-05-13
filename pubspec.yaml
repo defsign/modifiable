@@ -1,7 +1,8 @@
 name: modifiable
-description: "A new Flutter package project."
+description: "A boilerplate reduction package"
 version: 0.0.1
-homepage:
+homepage: https://github.com/defsign/
+repository: https://github.com/defsign/modifiable/tree/main
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
