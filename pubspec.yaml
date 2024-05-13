@@ -1,5 +1,5 @@
 name: modifiable
-description: "A boilerplate reduction package"
+description: "Reduce boilerplate by simply chaining methods when creating widgets, adding animations and applying themes."
 version: 0.0.1
 homepage: https://github.com/defsign/
 repository: https://github.com/defsign/modifiable/tree/main
