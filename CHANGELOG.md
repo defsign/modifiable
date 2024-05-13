@@ -1,3 +1,9 @@
+## 0.0.2
+
+* Update pubspec.yaml description
+* Update README.md
+
+
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial release
