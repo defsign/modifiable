@@ -1,5 +1,5 @@
 name: modifiable
-description: "Reduce boilerplate by simply chaining methods when creating widgets, adding animations and applying themes."
+description: "Reduce boilerplate by chaining methods for widget creation, animations, and theme application."
 version: 0.0.3
 homepage: https://github.com/defsign/
 repository: https://github.com/defsign/modifiable/tree/main
