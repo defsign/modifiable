@@ -122,4 +122,4 @@ Explore the examples directory for more usage examples and demonstrations of Mod
 
 ## Support
 
-For any questions, issues, or feature requests, please [open an issue](https://github.com/yourusername/modifiable/issues) or [contact us](mailto:1def.signall@gmail.com).
+For any questions, issues, or feature requests, please [open an issue](https://github.com/defsign/modifiable/issues) or [contact us](mailto:1def.signal@gmail.com).
