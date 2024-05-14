@@ -31,7 +31,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    Transform;
     return Scaffold(
       body: Center(
         child: Column(
@@ -50,6 +49,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 fit: BoxFit.cover,
               ),
             ),
+            const SizedBox(height: 10),
+            const Text('Hello').modify()
+              ..size(200, 100)
+              ..alignCenter()
           ],
         ),
       ),
