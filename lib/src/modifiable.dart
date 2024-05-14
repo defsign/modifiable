@@ -32,10 +32,10 @@ SimpleModifier get modifier => SimpleModifier();
 extension ModifiableWidgetExtension on Widget {
   ModifiedChild modify() => ModifiedChild(child: this);
 
-  Widget modifier(Modifier modify) =>
-      Modifiable(modifications: modify, child: this);
+  Widget modifier(Modifier modifications) =>
+      Modifiable(modifications: modifications, child: this);
 
-  Widget modifyC(Modifier Function(BuildContext) func) =>
+  Widget contextModifier(Modifier Function(BuildContext) func) =>
       Builder(builder: (c) => Modifiable(modifications: func(c), child: this));
 }
 
