@@ -1,7 +1,14 @@
 part of '../modifiable.dart';
 
+/// A modifiable that aligns its child within itself and optionally sizes itself
+/// based on the child's size.
 class AlignmentModifiable extends BuildableModifiable {
-  AlignmentModifiable({required super.builder});
+  /// Creates an alignment modifiable.
+  ///
+  AlignmentModifiable({required AlignmentGeometry alignment})
+      : super(builder: (context, child) {
+          return Align(alignment: alignment, child: child);
+        });
 }
 
 extension ModifyAlignExtension<T extends Modifier> on Modifier<T> {
@@ -53,11 +60,7 @@ extension ModifyAlignExtension<T extends Modifier> on Modifier<T> {
   T alignBottomEnd() => _setAlignment(AlignmentDirectional.bottomEnd);
 
   T _setAlignment(AlignmentGeometry alignment) {
-    final modifiable = AlignmentModifiable(
-      builder: (context, child) {
-        return Align(alignment: alignment, child: child);
-      },
-    );
+    final modifiable = AlignmentModifiable(alignment: alignment);
     return addModifiable(modifiable);
   }
 }
