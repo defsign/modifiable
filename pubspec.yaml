@@ -1,8 +1,13 @@
 name: modifiable
 description: "Reduce boilerplate by simply chaining methods when creating widgets, adding animations and applying themes."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/defsign/
 repository: https://github.com/defsign/modifiable/tree/main
+
+topics:
+  - animation
+  - ui
+  - widget
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
@@ -22,5 +27,7 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 
-flutter:
+screenshots:
+  - description: 'Basic comparison of the Modifiable syntax and the default flutter syntax'
+    path: screenshots/comparison.png
 
