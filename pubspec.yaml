@@ -1,6 +1,6 @@
 name: modifiable
 description: "Reduce boilerplate by chaining methods for widget creation, animations, and theme application."
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/defsign/
 repository: https://github.com/defsign/modifiable/tree/main
 
