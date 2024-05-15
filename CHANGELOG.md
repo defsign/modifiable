@@ -1,3 +1,7 @@
+## 0.0.4
+
+* add/update documentations
+* Update README.md
 ## 0.0.3
 
 * replaced modifyC with contextMofier
