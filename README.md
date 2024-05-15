@@ -14,7 +14,6 @@ Container(
     height: 200,
     padding: EdgeInsets.symmetric(horizontal: 10),
     decoration: BoxDecoration(
-        color: Colors.red,
         image: DecorationImage(
             image: NetworkImage('https://source.unsplash.com/random'),
         ),
